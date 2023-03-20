@@ -1,7 +1,7 @@
-function showAttack(obj) {
+function showAttack({ special }) {
   const result = [];
 
-  obj.special.forEach((element) => {
+  special.forEach((element) => {
     const {
       id,
       name,
